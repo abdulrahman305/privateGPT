@@ -1,6 +1,6 @@
 ### IMPORTANT, THIS IMAGE CAN ONLY BE RUN IN LINUX DOCKER
 ### You will run into a segfault in mac
-FROM python:3.11.6-slim-bookworm as base
+FROM python:3.11.9-slim-bookworm as base
 
 # Install poetry
 RUN pip install pipx
