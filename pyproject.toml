@@ -7,12 +7,12 @@ authors = ["Zylon <hi@zylon.ai>"]
 [tool.poetry.dependencies]
 python = ">=3.11,<3.12"
 # PrivateGPT
-fastapi = { extras = ["all"], version = "^0.111.0" }
+fastapi = { extras = ["all"], version = "^0.112.0" }
 python-multipart = "^0.0.9"
 injector = "^0.21.0"
 pyyaml = "^6.0.1"
 watchdog = "^4.0.1"
-transformers = "^4.42.3"
+transformers = "^4.44.0"
 docx2txt = "^0.8"
 cryptography = "^3.1"
 # LlamaIndex core libs
@@ -92,7 +92,7 @@ storage-nodestore-postgres = ["llama-index-storage-docstore-postgres","llama-ind
 rerank-sentence-transformers = ["torch", "sentence-transformers"]
 
 [tool.poetry.group.dev.dependencies]
-black = "^22"
+black = "^24"
 mypy = "^1.2"
 pre-commit = "^2"
 pytest = "^7"
